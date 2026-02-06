@@ -32,40 +32,46 @@ Gamified AR/MR rehabilitation application for shoulder abduction therapy using r
 ## ✨ Features
 - Real-time skeletal tracking using **Nuitrack**
 - Depth sensing with **Intel RealSense D415**
-- Measurement of **abduction angle**, **movement velocity**, and **postural compensations**
+- Measurement of **shoulder abduction angle**, **movement velocity**, and **postural compensations**
 - Session logging for movement supervision and progress assessment
-- Gamified feedback to improve engagement and adherence
+- Gamified visual feedback to improve patient engagement
 
 ---
 
 ## 🧰 Hardware & Software
 - **Unity**: 2022.x / 2023.x
 - **Tracking SDK**: Nuitrack
-- **Camera**: Intel RealSense D415
-- **OS**: Windows (recommended)
+- **Depth Camera**: Intel RealSense D415
+- **Operating System**: Windows (recommended)
 
 ---
 
 ## ⚙️ Setup
 1. Clone the repository
-2. Open `UnityProject/` in Unity Hub
-3. Install and configure **Nuitrack** and **Intel RealSense** drivers
+2. Open the `UnityProject/` folder in Unity Hub
+3. Install and configure **Nuitrack** and **Intel RealSense** drivers and runtime
 4. Open the main scene: `Assets/Scenes/Main.unity`
-5. Run the project and calibrate the user
+5. Run the project and perform user calibration
 
 ---
 
 ## 🖼 Screenshots
 <p align="center">
-  <img src="media/screenshots/ui_overview.png" width="280">
-  <img src="media/screenshots/exercise_feedback.png" width="280">
-  <img src="media/screenshots/session_metrics.png" width="280">
+  <img src="media/screenshots/Calibration_scene.png" width="280">
+  <img src="media/screenshots/parameters.png" width="280">
+  <img src="media/screenshots/rehab_scene.png" width="280">
 </p>
 
 ---
 
 ## 🗺 Roadmap
 - [ ] Additional rehabilitation exercises
-- [ ] Therapist mode with presets and reports
-- [ ] Improved compensation detection
-- [ ] Export session data (CSV / JSON)
+- [ ] Therapist mode with configurable presets and reports
+- [ ] Improved detection of postural compensations
+- [ ] Export of session data (CSV / JSON)
+- [ ] Clinical validation with multiple users
+
+---
+
+## 📜 License
+Specify your license here (e.g., MIT, Academic, etc.)
