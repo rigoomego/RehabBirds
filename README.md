@@ -16,7 +16,6 @@ Gamified AR/MR rehabilitation for shoulder abduction therapy using real-time ske
   <a href="#-features">Features</a> •
   <a href="#-hardware--software">Hardware/Software</a> •
   <a href="#-setup">Setup</a> •
-  <a href="#-project-structure">Project Structure</a> •
   <a href="#-roadmap">Roadmap</a>
 </p>
 
