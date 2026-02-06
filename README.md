@@ -1,57 +1,71 @@
-# RehabBirds
-RehabBirds is a gamified rehabilitation application for shoulder abduction therapy. It uses real-time skeletal tracking (Nuitrack with an Intel RealSense D415 depth camera) to measure abduction angle, movement velocity, and postural compensations, enabling movement supervision and progress assessment during sessions.
-
-
 <p align="center">
   <img src="media/hero.png" width="900" alt="RehabBirds">
 </p>
 
 <h1 align="center">RehabBirds</h1>
+
 <p align="center">
-Gamified AR/MR rehabilitation for shoulder abduction therapy using real-time skeletal tracking.
+Gamified AR/MR rehabilitation application for shoulder abduction therapy using real-time skeletal tracking.
 </p>
 
 <p align="center">
   <a href="#-demo">Demo</a> •
   <a href="#-features">Features</a> •
-  <a href="#-hardware--software">Hardware/Software</a> •
+  <a href="#-hardware--software">Hardware & Software</a> •
   <a href="#-setup">Setup</a> •
+  <a href="#-screenshots">Screenshots</a> •
   <a href="#-roadmap">Roadmap</a>
 </p>
 
 ---
 
 ## 🆕 What’s New
-- **v0.1** Prototype: shoulder abduction exercise + feedback + session metrics
+- **v0.1** – Prototype with shoulder abduction exercise, real-time feedback, and session metrics
 
 ---
 
 ## 🎥 Demo
-[![Demo](media/demo.gif)](https://www.youtube.com/watch?v=TU_VIDEO)
-
-> Replace `TU_VIDEO` with your YouTube/Vimeo link.
+[![RehabBirds Demo](media/demo.gif)](https://www.youtube.com/watch?v=z-tJwB6hM40)
 
 ---
 
 ## ✨ Features
-- Real-time skeletal tracking with **Nuitrack**
-- Depth camera: **Intel RealSense D415**
-- Measures **abduction angle**, **velocity**, and **postural compensations**
-- Session logging for progress tracking
+- Real-time skeletal tracking using **Nuitrack**
+- Depth sensing with **Intel RealSense D415**
+- Measurement of **abduction angle**, **movement velocity**, and **postural compensations**
+- Session logging for movement supervision and progress assessment
+- Gamified feedback to improve engagement and adherence
 
 ---
 
 ## 🧰 Hardware & Software
-- Unity: `2022.x/2023.x`
-- Tracking: Nuitrack SDK
-- Camera: Intel RealSense D415
-- OS: Windows (recommended)
+- **Unity**: 2022.x / 2023.x
+- **Tracking SDK**: Nuitrack
+- **Camera**: Intel RealSense D415
+- **OS**: Windows (recommended)
 
 ---
 
 ## ⚙️ Setup
-1. Clone the repo
+1. Clone the repository
 2. Open `UnityProject/` in Unity Hub
-3. Install/Configure Nuitrack + RealSense (drivers + runtime)
+3. Install and configure **Nuitrack** and **Intel RealSense** drivers
 4. Open the main scene: `Assets/Scenes/Main.unity`
+5. Run the project and calibrate the user
 
+---
+
+## 🖼 Screenshots
+<p align="center">
+  <img src="media/screenshots/ui_overview.png" width="280">
+  <img src="media/screenshots/exercise_feedback.png" width="280">
+  <img src="media/screenshots/session_metrics.png" width="280">
+</p>
+
+---
+
+## 🗺 Roadmap
+- [ ] Additional rehabilitation exercises
+- [ ] Therapist mode with presets and reports
+- [ ] Improved compensation detection
+- [ ] Export session data (CSV / JSON)
