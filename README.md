@@ -73,5 +73,4 @@ Gamified AR/MR rehabilitation application for shoulder abduction therapy using r
 
 ---
 
-## 📜 License
-Specify your license here (e.g., MIT, Academic, etc.)
+
