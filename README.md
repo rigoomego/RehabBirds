@@ -56,10 +56,3 @@ Gamified AR/MR rehabilitation for shoulder abduction therapy using real-time ske
 3. Install/Configure Nuitrack + RealSense (drivers + runtime)
 4. Open the main scene: `Assets/Scenes/Main.unity`
 
----
-
-## 📁 Project Structure
-```txt
-UnityProject/        # Unity project (Assets, Packages, ProjectSettings)
-media/               # Images/GIFs used in README
-docs/                # Documentation (optional)
